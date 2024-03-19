@@ -1,0 +1,31 @@
+body{
+    background-image: url(imagens/f2.jpeg);
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto{
+    background-image: url(imagens/f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    width: 400px;
+    height: calc(100vh - 50px);
+}
+.block{
+    display: flex;
+    margin: 20px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    padding-left: 20px;
+}
+.texto{
+    background: rgba(5, 5, 5, 0.603);
+    margin: 20px;
+    width: 550px;
+    padding-left: 10px;
+}
